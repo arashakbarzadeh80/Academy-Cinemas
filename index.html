@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Academy Cinemas</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!--Custom CSS file for multiple screen sizes-->
+  <link rel="stylesheet" href="CSS/custom-css-media.css">
+  </head>
+  <body>
+<!--BOOTSTRAP JAVASCRIPT-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<!--Custom CSS last to override Bootstrap CSS based on levels of specificity-->
+    <link href="CSS/custom.css" rel="stylesheet">  
+<!--NAVBAR-->
+  <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Academy Cinemas</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Now Playing
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#ben-hur">Ben Hur</a></li>
+            <li><a class="dropdown-item" href="#stood-still">The day the Earth Stood Still</a></li>
+            <li><a class="dropdown-item" href="#vertigo">Vertigo</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#tickets">Tickets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<header class="row justify-content-center">
+<img src="images/LOGO.png" class="img-fluid col-lg-6" id="Header-image" alt="Academy Cinemas Logo">  
+</header>
+<!--Now Playing-->
+<section>
+  <div class="container" id="now-playing">
+    <h1>Now Playing</h1>
+    <!--Ben Hur-->
+    <div class="d-flex flex-row flex-wrap spacer" id="ben-hur">
+      <div class="col-lg-5 mx-auto">
+      <img src="images/Ben-hur.jpg" class="img-fluid" alt="Ben hur movie poster">
+    </div>
+      <div class="card col-lg-5 mx-auto">
+        <div class="card-body">
+          <h3 class="card-title"> Ben-Hur</h3>
+          <!--Ben hur movie description-->
+          <p class="lead">
+            In 1st-century Jerusalem, a wealthy Jewish prince is falsely accused of treason and sold into Roman slavery by his ambitious childhood friend. After surviving years at sea, he returns to his homeland to seek justice and revenge through a grueling chariot race, ultimately finding spiritual redemption
+            <br>
+            <br>
+            <b>Director: </b> William Wyler 
+            <br>
+           <b>Starring:</b> Charlton Heston - Stephen Boyd - Jack Hawkins
+          </p>
+          <br>
+          <br>
+          <!--Ben-Hur Show times-->
+          <h4 class="card-title"> Show Times</h4>
+          <div class="row">
+            <div class="col">
+<a class="btn" href="#tickets" role="button">10:00 AM</a>
+<a class="btn" href="#tickets" role="button">11:30 AM</a>
+<a class="btn" href="#tickets" role="button">1:10 PM</a>
+          </div>
+        </div>
+             <div class="row">
+            <div class="col">
+<a class="btn" href="#tickets" role="button">2:30 PM</a>
+<a class="btn" href="#tickets" role="button">4:50 PM</a>
+<a class="btn" href="#tickets" role="button">8:00 PM</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--The Day The Earth Stood Still-->
+    <div class="d-flex flex-row flex-wrap spacer" id="stood-still">
+                   <div class="card col-lg-5 mx-auto">
+        <div class="card-body">
+          <h3 class="card-title"> The Day The Earth Stood Still</h3>
+          <!--The Day The Earth Stood Still movie description-->
+          <p class="lead">
+            A humanoid alien named Klaatu and a powerful giant robot named Gort land their flying saucer in Washington, D.C. Klaatu brings a stark warning that Earth must stop its violent ways and live in peace, or face total destruction by an alien police force. When humans react with fear and hostility, Klaatu escapes into the city to experience ordinary human life and seek out a wise professor to help deliver his message
+            <br>
+            <br>
+            <b>Director: </b> Robert Wise
+            <br>
+           <b>Starring:</b> Michael Rennie - Patricia Neal
+          </p>
+          <br>
+          <br>
+          <!--The Day The Earth Stood Still Show times-->
+          <h4 class="card-title"> Show Times</h4>
+          <div class="row">
+            <div class="col">
+<a class="btn" href="#tickets" role="button">10:00 AM</a>
+<a class="btn" href="#tickets" role="button">11:30 AM</a>
+<a class="btn" href="#tickets" role="button">1:10 PM</a>
+          </div>
+        </div>
+             <div class="row">
+            <div class="col">
+<a class="btn" href="#tickets" role="button">2:30 PM</a>
+<a class="btn" href="#tickets" role="button">4:50 PM</a>
+<a class="btn" href="#tickets" role="button">8:00 PM</a>
+          </div>
+        </div>
+      </div>
+         </div>
+         <div class="col-lg-5 mx-auto">
+      <img src="images/The Day The Earth Stood Still.jpeg" class="img-fluid" alt="The Day The Earth Stood Still poster">
+    </div>
+     <!--VERTIGO-->
+    <div class="d-flex flex-row flex-wrap-reverse spacer" id="vertigo">
+      <div class="col-lg-5 mx-auto">
+      <img src="images/Vertigo.jpg" class="img-fluid" alt="Vertigo movie poster">
+    </div>
+      <div class="card col-lg-5 mx-auto">
+        <div class="card-body">
+          <h3 class="card-title"> Vertigo</h3>
+          <!--Vertigo movie description-->
+          <p class="lead">
+            Vertigo (1958) is a psychological thriller about a retired detective with a intense fear of heights who becomes obsessed with a hauntingly beautiful woman he is hired to tail
+            <br>
+            <br>
+            <b>Director: </b> Alfred Hitchcock
+            <br>
+           <b>Starring:</b> James Stewart - Kim Novak - Barbara Bel Geddes
+          </p>
+          <br>
+          <br>
+          <!--Vertigo Show times-->
+          <h4 class="card-title"> Show Times</h4>
+          <div class="row">
+            <div class="col">
+<a class="btn" href="#tickets" role="button">10:00 AM</a>
+<a class="btn" href="#tickets" role="button">11:30 AM</a>
+<a class="btn" href="#tickets" role="button">1:10 PM</a>
+          </div>
+        </div>
+             <div class="row">
+            <div class="col">
+<a class="btn" href="#tickets" role="button">2:30 PM</a>
+<a class="btn" href="#tickets" role="button">4:50 PM</a>
+<a class="btn" href="#tickets" role="button">8:00 PM</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--TICKETS-->
+<section>
+  <div class="container spacer" id="tickets">
+    <h1>Tickets</h1>
+    <div class="d-flex flex-row flex-wrap">
+    <!--MOVIE SELECTION-->
+    <div class="col">
+      <div class="card text-center">
+        <h5 class="card-title">Please select a movie</h5>
+        <div class="card-body">
+          <select class="form-select" aria-label="Movie title selection">
+  <option selected>Select movie</option>
+  <option value="1">Ben-Hur</option>
+  <option value="2">The Day The Earth Stood Still</option>
+  <option value="3">Vertigo</option>
+</select>
+        </div>
+        </div>
+      </div>
+      <!--TIME SELECTION-->
+    <div class="col">
+      <div class="card text-center">
+        <h5 class="card-title">Please select a show time</h5>
+        <div class="card-body">
+          <select class="form-select" aria-label="Show time selection">
+  <option selected>Select time</option>
+  <option value="1">10:00 AM</option>
+  <option value="2">11:30 AM</option>
+  <option value="3">1:10 PM</option>
+  <option value="4">2:30 PM</option>
+  <option value="5">4:50 PM</option>
+  <option value="6">8:00 PM</option>
+</select>
+        </div>
+        </div>
+      </div>
+        <!--NUMBER OF TICKETS-->
+    <div class="col">
+      <div class="card text-center">
+        <h5 class="card-title">Please select number of tickets</h5>
+        <div class="card-body">
+          <input type="number" id="quantity" value="1" step="1">
+             </div>
+        </div>
+      </div>
+    </div>
+    <!--BUY TICKET BOTTON-->
+    <div class="row justify-content-center">
+      <div class="col-auto">
+        <botton type="submit" class="btn yellow-btn">Buy Tickets</botton>
+      </div>
+    </div>
+  </div>
+</section>
+<!--CONTACT FORM-->
+<section>
+  <div class="container" id="contact">
+    <h1>Contact Us!</h1>
+    <div class="row gy-4">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="First Name">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Last Name">
+      </div>
+      <div>
+        <input type="email" class="form-control" placeholder="Email">
+      </div>
+      <div>
+        <textarea class="form-control" rows="3" placeholder="Type message here..."></textarea>
+    <botton type="submit" class="btn yellow-btn" id="contact-submit"> Submit </botton>
+      </div>
+    </div>
+  </div>
+</section>
+<!--FOOTER-->
+<section>
+      <div class="container-fluid">
+      <footer
+        class="d-flex flex-wrap justify-content-center align-items-center py-3"
+      >
+        <p class="col-md-4 mb-0 footer-text"> &copy; Academy Cinemas
+        </p>
+        <img src="images/LOGO.png" class="col-md-4 footer-image" alt="Academy Cinemas LOGO">
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="#now-playing" class="nav-link px-2 footer-text">Now Playing</a>
+          </li>
+          <li class="na-item">
+            <a href="#tickets" class="nav-link px-2 footer-text">Tickets</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link px-2 footer-text">Contact</a>
+          </li>
+                  </ul>
+
+                  <div class="container-fluid text-center footer-text">
+  <div class="row">
+    <div class="col">
+      Tel: 778-329-1846
+    </div>
+    <div class="col">
+      https://twitter.com/Academy-Cinemas
+    </div>
+    <div class="col">
+      https://facebook.com/Academy-Cinemas
+    </div>
+  </div>
+</div>
+      </footer>
+    </div>
+</section>
+</body>
+</html>
